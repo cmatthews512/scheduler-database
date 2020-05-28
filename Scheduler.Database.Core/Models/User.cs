@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -19,6 +20,9 @@ namespace Scheduler.Database.Core.Models
         [Column("email_addr")]
         public string EmailAddress { get; set; }
 
-        public ICollection<Student> Students { get; set; }
+        [Column("is_active")]
+        public int IsActive { get; set; }
+
+        public ICollection<Team> Teams { get; set; }
     }
 }
