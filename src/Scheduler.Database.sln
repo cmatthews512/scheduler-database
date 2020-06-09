@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Database.API", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Database.Core", "Scheduler.Database.Core\Scheduler.Database.Core.csproj", "{C7C1D91B-7FA8-4C55-8558-41C904B76039}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Database.ConsoleApp", "Scheduler.Database.ConsoleApp\Scheduler.Database.ConsoleApp.csproj", "{6529A878-83BA-4AF5-97B6-5B33FC91993B}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +46,17 @@ Global
 		{C7C1D91B-7FA8-4C55-8558-41C904B76039}.Release|x64.Build.0 = Release|Any CPU
 		{C7C1D91B-7FA8-4C55-8558-41C904B76039}.Release|x86.ActiveCfg = Release|Any CPU
 		{C7C1D91B-7FA8-4C55-8558-41C904B76039}.Release|x86.Build.0 = Release|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Debug|x64.Build.0 = Debug|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Debug|x86.Build.0 = Debug|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Release|x64.ActiveCfg = Release|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Release|x64.Build.0 = Release|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Release|x86.ActiveCfg = Release|Any CPU
+		{6529A878-83BA-4AF5-97B6-5B33FC91993B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
